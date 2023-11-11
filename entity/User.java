@@ -1,3 +1,5 @@
+package entity;
+
 public abstract class User {
     private String UserID;
     private String FirstName;
