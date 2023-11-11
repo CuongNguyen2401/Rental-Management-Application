@@ -1,3 +1,7 @@
 /Property.class
 /PropertyOwner.class
 /User.class
+/Tenant.class
+/Type.class
+/UserFactory.class
+/main.class

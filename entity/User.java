@@ -18,6 +18,9 @@ public abstract class User {
         this.Email = email;
         this.Password = password;
     }
+    public User() {
+    	
+    }
 
 
     public String getUserID() {

@@ -1,7 +1,7 @@
 package entity;
 
 
-public class PropertyOwner {
+public class PropertyOwner extends User {
 
 	private String OwnerID;
 	private String Properties;
@@ -9,6 +9,9 @@ public class PropertyOwner {
 	public PropertyOwner(String ownerID, String properties) {
 		this.OwnerID = ownerID;
 		this.Properties = properties;
+	}
+	public PropertyOwner() {
+		
 	}
 
 	public String getOwnerID() {
