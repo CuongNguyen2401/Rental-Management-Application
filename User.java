@@ -6,12 +6,15 @@ public abstract class User {
     private String Password;
 
 
-    public User(String UserID,String FirstName, String LastName,String Email,String Password) {
-        Email= this.Email;
-        FirstName=this.FirstName;
-        LastName= this.LastName;
-        Password=this.Password;
-        UserID=this.UserID;
+
+
+
+    public User(String userID, String firstName, String lastName, String email, String password) {
+        this.UserID = userID;
+        this.FirstName = firstName;
+        this.LastName = lastName;
+        this.Email = email;
+        this.Password = password;
     }
 
 
