@@ -1,5 +1,6 @@
 package entity;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class RentalContract {
@@ -22,12 +23,16 @@ public class RentalContract {
 		this.rentAmount = rentAmount;
 	}
 
-	public void createContract() {
-
+	public static ArrayList<RentalContract> createContract(RentalContract contract,
+			ArrayList<RentalContract> listOfContract) {
+		listOfContract.add(contract);
+		return listOfContract;
 	}
 
-	public void terminalContract() {
-
+	public static ArrayList<RentalContract> terminateContract(RentalContract contract,
+			ArrayList<RentalContract> contracts) {
+		contracts.remove(contract);
+		return contracts;
 	}
 
 	public int getContractID() {
