@@ -6,3 +6,7 @@
 /UserFactory.class
 /main.class
 /RentalContract.class
+/User$UserBuilder.class
+/PropertyBuilder.class
+/Property$PropertyBuilder.class
+/RentalContract$RentalContractBuilder.class
